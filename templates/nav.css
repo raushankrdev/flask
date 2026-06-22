@@ -1,0 +1,48 @@
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+    }
+
+    body{
+        background:#ffffff;
+    }
+
+    .navbar{
+        height:72px;
+        background:#16243d;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:0 48px;
+    }
+
+    .logo{
+        color:white;
+        font-size:20px;
+        font-weight:600;
+    }
+
+    .task-btn{
+        background:#0c49ad;
+        color:white;
+        border:none;
+        padding:12px 22px;
+        border-radius:8px;
+        font-size:15px;
+        cursor:pointer;
+        text-decoration: none;
+    }
+
+    .container{
+        padding:35px 120px;
+    }
+
+    .heading{
+        font-size:52px;
+        font-weight:700;
+        color:#000;
+    }
